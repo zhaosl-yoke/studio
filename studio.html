@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>工作室详情</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="mui/mui.min.css">
+	<link rel="stylesheet" href="css/studio.css">
+</head>
+<body>
+	<div class="mui-content">
+			<div style="padding: 0px 10px;background: #fff;">
+				<div id="segmentedControl" class="mui-segmented-control mui-segmented-control-inverted mui-segmented-control-primary">
+					<a class="mui-control-item mui-active" href="#expert_intro">介绍<span class="line"></a>
+					<a class="mui-control-item" href="#expert_class">课程<span class="line"></span></a>
+					<a class="mui-control-item" href="#expert_review">点评<span class="line"></span></a>
+					<a class="mui-control-item" href="#expert_comment">评论<span class="line"></span></a>
+				</div>
+			</div>
+			<div>
+				<div id="expert_intro" class="mui-control-content mui-active">
+					<div class="expert_poster"></div>
+					<div class="detail">
+						<div class="expert">
+							<div class="avatar margin-left"></div>
+							<span class="name font-15">乐培教育工作室</span>
+							<img src="img/attention.png" alt="" class="attention">
+							<span class="attention_num">235.2w</span>
+							<div class="major font-12 margin-left">钢琴、小提琴、吉他</div>
+							<div class="unit font-12 margin-left">单位：昵称</div>
+							<div class="border"></div>
+							<ul class="mui-table-view expert_list" style="display:none;">
+								<li class="mui-table-view-cell mui-media">
+									<img class="mui-media-object mui-pull-left expert_avatar margin-left" src="img/expert_avatar.png">
+									<div class="mui-media-body list_detail">
+										<p>
+											<span class="font-15 expert_name">黄薇薇</span>
+											<span class="font-10 ask_text"><span class="num">9866</span>人请教</span></p>
+										<p class='mui-ellipsis font-12'>专业：钢琴、小提琴</p>
+										<p class='mui-ellipsis font-12'>单位：昵称昵称昵称昵称昵称昵称昵称昵称昵称</p>
+									</div>
+									<div class="ask">请教</div>
+								</li> 
+								<li class="mui-table-view-cell mui-media">
+									<img class="mui-media-object mui-pull-left expert_avatar margin-left" src="img/expert_avatar.png">
+									<div class="mui-media-body list_detail">
+										<p>
+											<span class="font-15 expert_name">肖瑶</span>
+											<span class="font-10 ask_text"><span class="num">9866</span>人请教</span></p>
+										<p class='mui-ellipsis font-12'>专业：钢琴、小提琴</p>
+										<p class='mui-ellipsis font-12'>单位：昵称昵称昵称昵称昵称昵称昵称昵称昵称</p>
+									</div>
+									<div class="ask">请教</div>
+								</li> 
+							</ul>
+							<div class="toggle_btn add">
+								<img src="img/down.png" alt="">
+							</div>
+						</div>
+						<div class="expert_intro">
+							<div class="intro_title font-15">工作室简介</div>
+							<div class="content font-12 mui-ellipsis-3">站在《睡莲》前感受莫奈笔下变幻莫测的倒影世界，或者在《持阳伞的卡米尔》面前等待吹动着卡米尔脸上的微风拂过脸庞，触摸交错在《鲁昂大教堂》画面上的光与风拂过脸庞。</div>
+						</div>
+					</div>
+				</div>
+				<div id="expert_class" class="mui-control-content">
+					<ul class="mui-table-view class_list">
+						<li>
+							<div class="class_poster"></div>
+							<div class="class_con">
+								<div class="title">《学习音乐及乐器演奏的本质》<span class="time">2018年3月16日</span></div>
+								<div class="class_text mui-ellipsis-2">学习音乐，及乐器演奏本质是什么，学习乐器演奏它实际上是学习一种表演艺术，这个表演艺术是一种文化，是一种艺术，它不仅仅是它不仅仅是</div>
+								<div class="border"></div>
+								<div class="bot">
+									<p class="look">
+										<img src="img/look.png" alt="">
+										<span class="num">66</span>
+									</p>
+									<p class="zan">
+										<img src="img/zan.png" alt="">
+										<span class="num">66</span>
+									</p>
+									<p class="comment">
+										<img src="img/comment.png" alt="">
+										<span class="num">66</span>
+									</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div id="expert_review" class="mui-control-content">
+					<ul class="mui-table-view review_list">
+						<li>
+							<div class="title">
+								<div class="review_avatar"></div>
+								<div class="right">
+									<p class="title_text">黄薇薇老师点评了某某某的作品</p>
+									<p class="time">2018-03-13  17:18</p>
+								</div>
+							</div>
+							<div class="work">
+								<div class="work_poster">
+									<img src="img/play.png" alt="" class="play">
+								</div>
+								<div class="work_con">
+									<p class="work_name mui-ellipsis">在练习上海音乐学院钢琴考级曲集琴考级曲集</p>
+									<p class="work_look">6870人旁听</p>
+								</div>
+							</div>
+							<div class="listen">
+								<img src="img/listen.png" alt="">
+								<span>旁听</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div id="expert_comment" class="mui-control-content">
+					<ul class="mui-table-view comment_list">
+						<li>
+							<div class="comment_author">
+								<div class="author_avatar"></div>
+								<div class="author_con">
+									<p class="author_name">小林同学</p>
+									<p class="time">2018-03-13  17:18</p>
+								</div>
+							</div>
+							<p class="comment">视频点评中很多细节被罗列，并且很有效率的讲解了很多问题</p>
+						</li>
+						<li>
+							<div class="comment_author">
+								<div class="author_avatar"></div>
+								<div class="author_con">
+									<p class="author_name">小林同学</p>
+									<p class="time">2018-03-13  17:18</p>
+								</div>
+							</div>
+							<p class="comment">视频点评中很多细节被罗列，并且很有效率的讲解了很多问题</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="buy_btn">立即报名：100元/20课时</div>
+	</div>
+	<script src="mui/mui.min.js"></script>
+	<script src="js/common/jquery-1.12.1.min.js"></script>
+	<script src="js/common/rem.js"></script>
+	<script src="js/studio.js"></script>
+</body>
+</html>
